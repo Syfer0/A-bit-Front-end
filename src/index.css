@@ -23,9 +23,9 @@
 }
 
 .animate-move-left-to-right {
-  animation: moveLeftToRight 5s linear infinite forwards; /* Added forwards */
+  animation: moveLeftToRight 10s linear infinite forwards; /* Added forwards */
 }
 
 .animate-move-right-to-left {
-  animation: moveRightToLeft 5s linear infinite forwards; /* Added forwards */
+  animation: moveRightToLeft 10s linear infinite forwards; /* Added forwards */
 }
