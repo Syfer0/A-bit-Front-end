@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.gloria-font {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-move-left-to-right {
+  animation: moveLeftToRight 5s linear infinite forwards; /* Added forwards */
+}
+
+.animate-move-right-to-left {
+  animation: moveRightToLeft 5s linear infinite forwards; /* Added forwards */
+}
