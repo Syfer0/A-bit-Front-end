@@ -5,6 +5,7 @@ import UserTagline from './UserTagline';
 import Stats from './Stats';
 import EmptyCart from './EmptyCart';
 import Card from './Card';
+import Footer from './Footter';
 function LandingPage() {
   return (
     <div>
@@ -17,9 +18,12 @@ function LandingPage() {
       <div className=" ml-16">
         <Stats />
       </div>
-      <div className="ml-16 flex gap-8">
+      <div className=" ml-16 flex gap-8 ">
         <EmptyCart />
         <Card />
+      </div>
+      <div className="flex items-center border-t border-[#D8D8D8] pb-32 pt-40">
+        <Footer />
       </div>
     </div>
   );

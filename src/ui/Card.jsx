@@ -2,7 +2,7 @@ import Box from './Box';
 
 function Card() {
   return (
-    <div className="bg-card-image relative mt-20 h-[312px] w-[283.64px]  rounded-2xl bg-cover bg-center">
+    <div className="bg-card-image relative mb-56 mt-20 h-[312px]  w-[283.64px] rounded-2xl bg-cover bg-center">
       <p className="pl-4 pt-3 font-semibold text-white">The Sound of Silence</p>
 
       <div className="absolute bottom-0 left-0 right-0 px-4 py-3 text-center ">
