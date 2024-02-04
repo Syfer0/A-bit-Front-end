@@ -2,6 +2,7 @@ import Header from './Header';
 import Cover from './Cover';
 import ProfileCard from './ProfileCard';
 import UserTagline from './UserTagline';
+import Stats from './Stats';
 function LandingPage() {
   return (
     <div>
@@ -10,6 +11,9 @@ function LandingPage() {
         <Cover />
         <UserTagline />
         <ProfileCard />
+      </div>
+      <div className=" ">
+        <Stats />
       </div>
     </div>
   );
