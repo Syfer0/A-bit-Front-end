@@ -5,7 +5,7 @@ function Cover() {
     <img
       src={Coverimg}
       alt="Cover img"
-      className="h-[500px] w-full object-cover object-center"
+      className=" h-[648px] w-full object-cover object-center"
     />
   );
 }

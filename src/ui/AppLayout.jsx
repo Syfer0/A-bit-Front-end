@@ -6,9 +6,11 @@ function LandingPage() {
   return (
     <div>
       <Header />
-      <Cover />
-      <ProfileCard />
-      <UserTagline />
+      <div className="relative h-1/2">
+        <Cover />
+        <UserTagline />
+        <ProfileCard />
+      </div>
     </div>
   );
 }
