@@ -8,7 +8,7 @@ function ProfileCard() {
   };
 
   return (
-    <div className=" ... absolute inset-0 ml-20 mt-56 h-[234px]  w-[571px] overflow-hidden rounded-r-lg  bg-slate-500">
+    <div className=" ml-20 mt-56 h-[234px]  w-[571px] overflow-hidden rounded-r-lg  bg-slate-500">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <div className="text-center">
           <div className="overflow-hidden rounded-lg">
