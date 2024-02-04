@@ -28,7 +28,7 @@ function ProfileCard() {
         </div>
         <div className="text-[#696969] ">
           <span className="font-semibold">Bio</span>
-          <p>{userData.bio}</p>
+          <p className=" tracking-wider">{userData.bio}</p>
         </div>
         <div className="relative flex w-full overflow-hidden rounded-lg border">
           <button className="relative z-10 -mr-[1px] w-[10rem] cursor-auto rounded-l-md rounded-r-[4px] border border-black px-10 py-1 font-serif ">
