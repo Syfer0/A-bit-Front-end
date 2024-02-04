@@ -1,4 +1,4 @@
-import profilePic from '../assets/profile-pic.png';
+import profilePic from '../assets/Profile-pic.png';
 import { IoWallet } from 'react-icons/io5';
 import { FaBell } from 'react-icons/fa6';
 import { IoIosArrowDown } from 'react-icons/io';
